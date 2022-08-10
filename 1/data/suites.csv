@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 10 18:34:29 GMT 2022","Wed Aug 10 18:34:30 GMT 2022","554","Surefire suite","Surefire test","com.example.solution.ui.LoginTest","com.example.solution.ui.LoginTest","userTriesToLoginWithEmptyPassword","userTriesToLoginWithEmptyPassword",""
+"passed","Wed Aug 10 18:34:31 GMT 2022","Wed Aug 10 18:34:31 GMT 2022","511","Surefire suite","Surefire test","com.example.solution.ui.LoginTest","com.example.solution.ui.LoginTest","userTriesToLoginWithIncorrectPassword","userTriesToLoginWithIncorrectPassword",""
+"passed","Wed Aug 10 18:34:30 GMT 2022","Wed Aug 10 18:34:31 GMT 2022","498","Surefire suite","Surefire test","com.example.solution.ui.LoginTest","com.example.solution.ui.LoginTest","userTriesToLoginWithEmptyUsername","userTriesToLoginWithEmptyUsername",""
+"passed","Wed Aug 10 18:34:25 GMT 2022","Wed Aug 10 18:34:29 GMT 2022","4031","Surefire suite","Surefire test","com.example.solution.ui.LoginTest","com.example.solution.ui.LoginTest","userLoginSuccessfully","userLoginSuccessfully",""
