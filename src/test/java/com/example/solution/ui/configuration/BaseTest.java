@@ -17,6 +17,8 @@ public abstract class BaseTest {
 
     @BeforeClass
     public static void setUpAll() {
+        Configuration.remote = "http://localhost:4444/wd/hub";
+        Configuration.driverManagerEnabled = false;
         Configuration.browserSize = "1280x800";
         SelenideLogger.addListener("allure", new AllureSelenide());
     }
