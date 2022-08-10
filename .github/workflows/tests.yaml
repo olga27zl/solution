@@ -18,13 +18,13 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
 
-      - name: Run UI tests with Maven
-        run:  chmod +x mvnw && ./mvnw test -Dtest="com.example.solution.unit.SolutionTest"
-
       - name: Start selenoid
         uses: Xotabu4/selenoid-github-action@v2
 
       - uses: actions/checkout@v1
+
+      - name: Run UI tests with Maven
+        run: chmod +x mvnw && ./mvnw test -Dtest="com.example.solution.unit.SolutionTest"
 
       - name: Run UI tests with Maven
         run: chmod +x mvnw && ./mvnw  test -Dtest="com.example.solution.ui.LoginTest"
