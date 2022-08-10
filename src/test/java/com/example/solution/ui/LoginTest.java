@@ -33,7 +33,6 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(mainPage.getInfoText(), "Invalid username/password", "User is successfully logged in");
     }
 
-
     @Test
     public void userTriesToLoginWithEmptyPassword() {
         loginPage.openPage()
@@ -55,6 +54,4 @@ public class LoginTest extends BaseTest {
 
         Assert.assertEquals(mainPage.getInfoText(), "Invalid username/password", "User is successfully logged in");
     }
-
-
 }
