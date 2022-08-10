@@ -32,7 +32,8 @@ There are two main branches in the project for now:<br>
 ### How to install?
 1. Clone project https://github.com/olga27zl/solution
 2. Open project in Intellij Idea
-3. Make sure you have installed Java 11 and maven on your machine and set the environment variables
+3. Make sure you have installed Java 11 and Maven on your machine
+4. Set environment variables for JAVA and Maven
 ### How to run unit tests?
 1. The unit tests for pickOutVowels() function is in "src/test/java/com/example/solution/unit/SolutionTest.java"
 2. In terminal navigate to the project directory
